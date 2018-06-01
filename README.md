@@ -20,4 +20,6 @@ Start a docker container in attached mode.
 `docker ps -a`  
 `docker rm [name|id]`  
 
+## Docker Swarm
+
 
