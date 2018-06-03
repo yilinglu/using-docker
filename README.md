@@ -7,6 +7,9 @@ Login [DockerHub](https://hub.docker.com/), create an account first
 `docker login`
 
 `docker run -d -p 8080:80 --name web1 tutum/hello-world`  
+`docker run -d sshagent`  
+`docker exec -it sshagent bash`
+
 Start a brand new docker container in detached mode, 
 map docker container's port 80 to a public access port 8080  
 
